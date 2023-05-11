@@ -552,7 +552,8 @@ section {
   font-family:Arial;
   font-size:28px;
   font-weight:bold;
-  color: #012970;
+  /* color: #012970; */
+  color: #652173;
   text-transform: uppercase;
 }
 
@@ -566,7 +567,8 @@ section {
 .about h2 {
   font-size: 20px;
   font-weight: 900;
-  color: #012970;
+  /* color: #012970; */
+  color: #652173;
 }
 
 .about p {
@@ -2632,9 +2634,4 @@ section {
     width:auto;
     /* object-fit:fill; */
   }
-}
-
-/* select option cust */
-.disaplayInput{
-  display: none;
 }
