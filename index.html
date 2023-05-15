@@ -223,7 +223,6 @@
               </center>
               <!-- <br> -->
               <h3 style="color: black;">Isi Data Permohonan Konsultan Halal & Anda akan mengikuti seleksi dan beasiswa diklat kompetensi RHA sebagai Pengelola SWAKARTA di kota domisili Anda</h3>
-              <form action="javacript:void(0)" method="post">
                 <div class="row p-4 pb-0">
                   <div class="card p-4">
                     <div class="card-title">
@@ -231,303 +230,187 @@
                         Data Diri Pribadi<sup class="text-danger">*</sup>
                       </h2>
                     </div>
-                    <div class="row">
-                      <!-- <div class="col-lg-4">
-                        <div>
-                          <div class="d-flex justify-content-center mb-4">
-                              <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg"
-                              alt="example placeholder" class="img-fluid" style="width: 200px;" />
-                          </div>
-                          <div class="d-flex justify-content-center">
-                              <div class="btn btn-sm btn-outline-primary btn-rounded">
-                                  <label class="form-label text-primary m-1" for="customFile1">Upload Foto KTP<sup class="text-danger">*</sup></label>
-                                  <input type="file" class="form-control d-none" id="customFile1" />
-                              </div>
-                          </div>
-                        </div>
-                      </div> -->
-                      <div class="col-lg-12">
-                        <div class="card-body">
-                          <div class="card-text">
-                            <div class="row">
-                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-outline">
-                                  <input type="text" id="form8Example1" class="form-control" />
-                                  <label class="form-label" for="form8Example1">Nama Lengkap<sup class="text-danger">*</sup></label>
-                                </div>
-                              </div>
-                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-outline">
-                                  <input type="text" name="usia" id="" class="form-control">
-                                  <label for="usia" class="form-label">Usia<sup class="text-danger">*</sup></label>
-                                </div>
-                              </div>
-                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-outline">
-                                  <input type="email" name="email" id="email" class="form-control" />
-                                  <label class="form-label" for="email">Email<sup class="text-danger">*</sup></label>
-                                </div>
-                              </div>
-                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-outline">
-                                  <input type="text" name="no_telp" id="no_telp" class="form-control" />
-                                  <label class="form-label" for="no_telp">No. Telpon / Whatsapp<sup class="text-danger">*</sup></label>
-                                </div>
-                              </div>
-                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-group">
-                                  <select class="select form-control" name="kab-kota" id="kab-kota">
-                                      <option value="" selected disabled class="form-label text-muted" for="kab-kota">Domisili Kabupaten / Kota<sup class="text-danger">*</sup></option>
-                                      <option value="1">DKI Jakarta</option>
-                                      <option value="2">Daerah Istimewa Yogyakarta</option>
-                                      <option value="3">Jawa Tengah</option>
-                                      <option value="4">Jawa Barat</option>
-                                      <option value="5">Jawa Timur</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-group">
-                                  <select class="select form-control" name="kec" id="kec">
-                                      <option value="" selected disabled class="form-label text-muted" for="kec">Domisili Kecamatan<sup style="color: red;">*</sup></option>
-                                      <option value="1">Sleman</option>
-                                      <option value="2">Polanharjo</option>
-                                      <option value="3">Kebonharjo</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-outline">
-                                  <input type="text" name="kab-kota" id="kab-kota" class="form-control" />
-                                  <label class="form-label" for="kab-kota">Domisili Kabupaten / Kota<sup class="text-danger">*</sup></label>
-                                </div>
-                              </div>
-                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-outline">
-                                  <input type="text" name="kec" id="kec" class="form-control" />
-                                  <label class="form-label" for="kec">Domisili Kecamatan<sup class="text-danger">*</sup></label>
-                                </div>
-                              </div> -->
-                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-outline">
-                                  <input type="text" name="pekerjaan" id="pekerjaan" class="form-control" />
-                                  <label class="form-label" for="pekerjaan">Pekerjaan Utama<sup class="text-danger">*</sup></label>
-                                </div>
-                              </div>
-                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-group">
-                                  <label for="cv" class="form-label">Curriculum Vitae (Format PDF)<sup class="text-danger">*</sup></label>
-                                  <input class="form-control" name="cv" id="cv" type="file" />
-                                </div>
-                              </div>
-                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-group">
-                                  <label for="suket-domisili" class="form-label">Surat Keterangan Domisili (Format PDF)<sup class="text-danger">*</sup></label>
-                                  <input class="form-control" name="suket-domisili" id="suket-domisili" type="file" />
-                                </div>
-                              </div>
-                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                                <div class="form-group">
-                                  <label for="sertif-lulus-p3h" class="form-label">Sertifikat Lulus Diklat P3H (Format PDF)<sup class="text-danger">*</sup></label>
-                                  <input class="form-control" name="sertif-lulus-p3h" id="sertif-lulus-p3h" type="file" />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row p-4 pb-0">
-                  <div class="card p-4">
-                    <div class="card-title">
-                      <h2>
-                        Data Jumlah Sertifikat Halal<sup class="text-danger">*</sup>
-                      </h2>
-                    </div>
-                    <div class="row">
-                      <!-- <div class="card-body">
-                        <div class="card-text">
-                          <div class="row">
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-4">
-                              <div class="form-outline">
-                                <input type="text" name="nama-usaha" id="nama-usaha" class="form-control" />
-                                <label class="form-label" for="nama-usaha">Nama Usaha<sup class="text-danger">*</sup></label>
-                              </div>
-                            </div>
-                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 pb-4">
-                              <div class="form-outline">
-                                <input type="text" name="alamat-usaha" id="alamat-usaha" class="form-control">
-                                <label for="alamat-usaha" class="form-label">Alamat Usaha<sup class="text-danger">*</sup></label>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                              <div class="form-outline">
-                                <input type="text" name="jenis-usaha" id="jenis-usaha" class="form-control" />
-                                <label class="form-label" for="jenis-usaha">Jenis Usaha<sup class="text-danger">*</sup></label>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                              <div class="form-outline">
-                                <input type="text" name="nib" id="" class="form-control">
-                                <label for="nib" class="form-label">NIB <sup class="text-muted">(jika sudah memiliki)</sup></label>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
-                              <div class="form-outline">
-                                <input type="text" name="bahan-cleaning-agent" id="bahan-cleaning-agent" class="form-control">
-                                <label for="bahan-cleaning-agent" class="form-label">Bahan Cleaning Agent<sup class="text-danger">*</sup></label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div> -->
-                    </div>
-                  </div>
-                </div>
+                    <div class="row justify-content-center bg-image mx-0 mb-0">
+                        <div class="col-lg-10 py-5">
+                            <div class="bg-transparent pb-0 pt-1 mb-0 mt-1">
                 
-                <!-- <div class="row p-4 pb-0">
-                  <div class="card p-4">
-                    <div class="card-title">
-                      <h2>
-                        Data Produk<sup class="text-danger">*</sup>
-                      </h2>
-                    </div>
-                    <div class="row">
-                      <div class="col-lg-6 pb-4">
-                        <div class="card bg-secondary bg-opacity-25">
-                          <div class="card-header">Produk 1<sup class="text-danger">*</sup></div>
-                          <div class="p-4">
-                            <div class="card" style="height: 16rem; max-width: 20rem;">
-                              <div class="card-body">
-                                <div class="card-text">
-                                  <label class="form-label" for="">Foto Produk</label>
-                                </div>
-                                <div class="bg-image hover-overlay ripple pb-2" data-mdb-ripple-color="light">
-                                  <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg" class="img-thumbnail" style="height: auto; width: 14rem;">
-                                  <a href="javascript:void(0)" class="text-decoration-none">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
-                                      <div class="badge badge-light">
-                                          <label class="form-label text-muted m-1" for="customFile1">Change Photo</label>
-                                          <input type="file" class="form-control d-none" id="customFile1" />
+                                <!-- Pills navs -->
+                                <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active" id="tab-pendamping" data-mdb-toggle="pill" href="#pills-pendamping" role="tab" aria-controls="pills-pendamping" aria-selected="true">Form Pendamping</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="tab-bukan-pendamping" data-mdb-toggle="pill" href="#pills-bukan-pendamping" role="tab" aria-controls="pills-bukan-pendamping" aria-selected="false">Form Bukan pendamping</a>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <!-- Pills navs -->
+                
+                                <div class="tab-content pt-4">
+                                    <!-- Pendamping  -->
+                                    <div class="tab-pane fade show active" id="pills-pendamping" role="tabpanel" aria-labelledby="tab-pendamping">
+                                      <h4>Isian Data Pendamping</h4>
+                                      <div class="card-body">
+                                        <div class="card-text">
+                                          <form action="javascript:void(0)" method="post">
+                                            <div class="row">
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="text" name="name" id="name" class="form-control" required/>
+                                                  <label class="form-label" for="name">Nama Lengkap<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="text" name="no_telp" id="no_telp" class="form-control" required/>
+                                                  <label class="form-label" for="no_telp">No. Telpon / Whatsapp<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="email" name="email" id="email" class="form-control" required/>
+                                                  <label class="form-label" for="email">Email<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="text" name="pekerjaan" id="pekerjaan" class="form-control" required/>
+                                                  <label class="form-label" for="pekerjaan">Pekerjaan Utama<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <label class="form-label">Wilayah Kerja</label>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-group">
+                                                  <select class="select form-control" name="province" id="province" required>
+                                                      <option value="" selected disabled class="form-label text-muted" for="province">Provinsi<sup style="color: red;">*</sup></option>
+                                                      <option value="1">Jawa Tengah</option>
+                                                      <option value="2">Jawa Barat</option>
+                                                      <option value="3">Jawa Timur</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-group">
+                                                  <select class="select form-control" name="city" id="city" required>
+                                                      <option value="" selected disabled class="form-label text-muted" for="city">Kabupaten / Kota<sup class="text-danger">*</sup></option>
+                                                      <option value="1">DKI Jakarta</option>
+                                                      <option value="2">Daerah Istimewa Yogyakarta</option>
+                                                      <option value="3">Jawa Tengah</option>
+                                                      <option value="4">Jawa Barat</option>
+                                                      <option value="5">Jawa Timur</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-group">
+                                                  <select class="select form-control" name="district" id="district" required>
+                                                      <option value="" selected disabled class="form-label text-muted" for="district">Kecamatan<sup style="color: red;">*</sup></option>
+                                                      <option value="1">Sleman</option>
+                                                      <option value="2">Polanharjo</option>
+                                                      <option value="3">Kebonharjo</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <label class="form-label">Jumlah Pendampingan Pelaku Usaha</label>
+                                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="number" name="jumlah_pendampingan" id="jumlah_pendampingan" class="form-control" required/>
+                                                  <label class="form-label" for="jumlah_pendampingan">Jumlah Pendampingan<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                  <div class="d-flex justify-content-start pt-5">
+                                                    <button type="button" onclick="this.form.reset();" class="btn btn-outline-danger">Reset</button>
+                                                    <button type="submit" class="btn ms-2 text-white" style="background-color: #652173;">Submit</button>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
                                       </div>
                                     </div>
-                                  </a>
-                                </div>
-                                <div class="badge rounded-pill text-bg-primary ">
-                                    <label class="form-label text-primary m-1" for="customFile1">Upload Foto<sup class="text-danger">*</sup></label>
-                                    <input type="file" class="form-control d-none" id="customFile1" />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card-body">
-                            <div class="card-text">
-                              <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <input type="text" name="nama-produk" id="nama-produk" class="form-control" />
-                                    <label class="form-label" for="nama-produk">Nama Produk<sup class="text-danger">*</sup></label>
-                                  </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <input type="text" name="bahan-kemasan" id="bahan-kemasan" class="form-control">
-                                    <label for="bahan-kemasan" class="form-label">Bahan Kemasan<sup class="text-danger">*</sup></label>
-                                  </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <textarea class="form-control" name="bahan-produk" id="bahan-produk" rows="2"></textarea>
-                                    <label class="form-label" for="bahan-produk">Bahan Produk<sup class="text-danger">*</sup></label>
-                                  </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <textarea class="form-control" name="proses-pembuatan" id="proses-pembuatan" rows="2"></textarea>
-                                    <label class="form-label" for="proses-pembuatan">Proses Pembuatan<sup class="text-danger">*</sup></label>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-6 pb-4">
-                        <div class="card bg-secondary bg-opacity-25">
-                          <div class="card-header">Produk 2</div>
-                          <div class="p-4">
-                            <div class="card" style="height: 16rem; max-width: 20rem;">
-                              <div class="card-body">
-                                <div class="card-text">
-                                  <label class="form-label" for="">Foto Produk</label>
-                                </div>
-                                <div class="bg-image hover-overlay ripple pb-2" data-mdb-ripple-color="light">
-                                  <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg" class="img-thumbnail" style="height: auto; width: 14rem;">
-                                  <a href="#!" class="text-decoration-none">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
-                                      <div class="badge badge-light">
-                                        <label class="form-label text-muted m-1" for="customFile1">Change Photo</label>
-                                        <input type="file" class="form-control d-none" id="customFile1" />
+
+                                    <!-- Bukan Pendamping -->
+                                    <div class="tab-pane fade" id="pills-bukan-pendamping" role="tabpanel" aria-labelledby="tab-bukan-pendamping">
+                                      <h4>Isian Data Bukan Pendamping</h4>
+                                      <div class="card-body">
+                                        <div class="card-text">
+                                          <form action="javascript:void(0)" method="post">
+                                            <div class="row">
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="text" name="name" id="name" class="form-control" required/>
+                                                  <label class="form-label" for="name">Nama Lengkap<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="text" name="no_telp" id="no_telp" class="form-control" required/>
+                                                  <label class="form-label" for="no_telp">No. Telpon / Whatsapp<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="email" name="email" id="email" class="form-control" required/>
+                                                  <label class="form-label" for="email">Email<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-outline">
+                                                  <input type="text" name="pekerjaan" id="pekerjaan" class="form-control" required/>
+                                                  <label class="form-label" for="pekerjaan">Pekerjaan Utama<sup class="text-danger">*</sup></label>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-group">
+                                                  <select class="select form-control" name="province" id="province" required>
+                                                      <option value="" selected disabled class="form-label text-muted" for="province">Provinsi<sup style="color: red;">*</sup></option>
+                                                      <option value="1">Jawa Tengah</option>
+                                                      <option value="2">Jawa Barat</option>
+                                                      <option value="3">Jawa Timur</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-group">
+                                                  <select class="select form-control" name="city" id="city" required>
+                                                      <option value="" selected disabled class="form-label text-muted" for="city">Kabupaten / Kota<sup class="text-danger">*</sup></option>
+                                                      <option value="1">DKI Jakarta</option>
+                                                      <option value="2">Daerah Istimewa Yogyakarta</option>
+                                                      <option value="3">Jawa Tengah</option>
+                                                      <option value="4">Jawa Barat</option>
+                                                      <option value="5">Jawa Timur</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                <div class="form-group">
+                                                  <select class="select form-control" name="district" id="district" required>
+                                                      <option value="" selected disabled class="form-label text-muted" for="district">Kecamatan<sup style="color: red;">*</sup></option>
+                                                      <option value="1">Sleman</option>
+                                                      <option value="2">Polanharjo</option>
+                                                      <option value="3">Kebonharjo</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                                  <div class="d-flex justify-content-start pt-5">
+                                                    <button type="button" onclick="this.form.reset();" class="btn btn-outline-danger">Reset</button>
+                                                    <button type="submit" class="btn ms-2 text-white" style="background-color: #652173;">Submit</button>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
                                       </div>
                                     </div>
-                                  </a>
                                 </div>
-                                <div class="badge rounded-pill text-bg-primary">
-                                  <label class="form-label text-primary m-1" for="customFile1">Upload Foto</label>
-                                  <input type="file" class="form-control d-none" id="customFile1" />
-                                </div>
-                              </div>
+                                <!-- pills content  -->
                             </div>
-                          </div>
-                          <div class="card-body">
-                            <div class="card-text">
-                              <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <input type="text" name="nama-produk" id="nama-produk" class="form-control" />
-                                    <label class="form-label" for="nama-produk">Nama Produk</label>
-                                  </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <input type="text" name="bahan-kemasan" id="bahan-kemasan" class="form-control">
-                                    <label for="bahan-kemasan" class="form-label">Bahan Kemasan</label>
-                                  </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <textarea class="form-control" name="bahan-produk" id="bahan-produk" rows="2"></textarea>
-                                    <label class="form-label" for="bahan-produk">Bahan Produk</label>
-                                  </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-4">
-                                  <div class="form-outline">
-                                    <textarea class="form-control" name="proses-pembuatan" id="proses-pembuatan" rows="2"></textarea>
-                                    <label class="form-label" for="proses-pembuatan">Proses Pembuatan</label>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
                   </div>
-                </div> -->
-          
-                <div class="row p-4">
-                  <div class="col">
-                    <div class="d-flex justify-content-end pt-5">
-                      <button type="button" onclick="this.form.reset();" class="btn btn-outline-danger btn-lg">Reset all</button>
-                      <button type="button" onclick="location.href='after-submit.html'" class="btn btn-lg ms-2 text-white" style="background-color: #652173;">Submit form</button>
-                    </div>
-                  </div>
-                </div>
-          
-              </form>
+                </div>          
             </div>
           </div>
 
